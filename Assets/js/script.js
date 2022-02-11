@@ -18,6 +18,11 @@ function generatePassword(){
   else (charLength === "a-z")
   window.alert ("Please enter a number between 8-128")
   return undefined;
+  
+  //if value is between 8-128, then prompt "click ok to confirm including special characters"
+  if (charLength >=8, charLength <=128){
+    window.prompt("Click ok to confirm including special characters");
+  }
 }
 
 
