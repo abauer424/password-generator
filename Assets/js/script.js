@@ -15,14 +15,22 @@ function generatePassword(){
   return undefined;
   }
   //if the value is a letter then alert "please enter a number between 8-128"
-  else (charLength === "a-z")
+  else if (Number.isNaN (charLength)) {
   window.alert ("Please enter a number between 8-128")
   return undefined;
-  
+}
+
   //if value is between 8-128, then prompt "click ok to confirm including special characters"
-  if (charLength >=8, charLength <=128){
+  if (charLength >=8 && charLength <=128){
     window.prompt("Click ok to confirm including special characters");
+
+    //if clicks "ok" then include in generate password
+
+    //if clicks "ok" then move onto next window prompt
+
+    //if clicks cancel then do not include in password 
   }
+
 }
 
 
