@@ -20,6 +20,13 @@ function generatePassword() {
     var lowercaseChar = window.confirm("Click 'ok' to confirm including lowercase characters");
     var uppercaseChar = window.confirm("Click 'ok' to confirm including uppercase characters");
    }
+
+   
+   //generate password length based on charLength value
+   
+   //if specialChar is true, then include in password
+
+   //if specialChar is false, do not include in password
 }
 
 
