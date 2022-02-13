@@ -1,4 +1,4 @@
-# Password Generator Starter Code
+# Password Generator
 
 ## Description 
 
@@ -21,12 +21,12 @@ To install the project, you need to git pull the following files from my reposit
 
 ## Usage 
 
-1) To start, load the page and click the "generate" button in red, see example below. You will then be asked to enter a number between 8-128, do this and click ok. 
-<img src="./assets/images/Image1.png" alt="image of generate password button"/>
-2) If you do not enter a number between 8-128, you will be alerted to enter a number between 8-128. If you entered a number between 8-128 you will go on to the next screen which will ask if you would like special, numerical, lowercase or uppercase characters in your password. 
-<img src="./assets/images/Image2.png" alt="click ok if you want special characters"/>
-3) Based on what you inputted, it will generate a password to meet your criteria. 
-<img src="./assets/images/Image3.png" alt="end result of generated password"/>
+To start, load the page and click the "generate" button in red, see example below. You will then be asked to enter a number between 8-128, do this and click ok. 
+<img src="https://github.com/abauer424/password-generator/tree/main/Assets/images/Image1.png" alt="image of generate password button"/>
+If you do not enter a number between 8-128, you will be alerted to enter a number between 8-128. If you entered a number between 8-128 you will go on to the next screen which will ask if you would like special, numerical, lowercase or uppercase characters in your password. 
+<img src="https://github.com/abauer424/password-generator/tree/main/Assets/images/Image2.png" alt="click ok if you want special characters"/>
+Based on what you inputted, it will generate a password to meet your criteria. 
+<img src="https://github.com/abauer424/password-generator/tree/main/Assets/images/Image3.png" alt="end result of generated password"/>
 
 
 ## Credits
